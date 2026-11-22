@@ -1,0 +1,7 @@
+contrast,method,outcome,estimate,true_ate,abs_bias,ci_low,ci_high
+spoofed_vs_baseline,Static Compliance Rule,peak_drac,0.19663237198781003,4.582820466151166,4.386188094163355,,
+spoofed_vs_baseline,Standard Correlational (naive),peak_drac,5.256894894478446,4.582820466151166,0.6740744283272804,,
+spoofed_vs_baseline,Causal AIPW+SCM (Ours),peak_drac,4.604859878045363,4.582820466151166,0.022039411894197336,4.414644225079701,4.809888255970214
+suppressed_vs_baseline,Static Compliance Rule,peak_drac,5.43862478476801,5.45815799537648,0.01953321060847024,,
+suppressed_vs_baseline,Standard Correlational (naive),peak_drac,5.991414525330956,5.45815799537648,0.5332565299544765,,
+suppressed_vs_baseline,Causal AIPW+SCM (Ours),peak_drac,5.465353247512356,5.45815799537648,0.007195252135876018,5.309688562737968,5.630634374268402
